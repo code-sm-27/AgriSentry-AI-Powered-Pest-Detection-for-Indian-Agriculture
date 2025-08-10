@@ -1,7 +1,6 @@
 
 # AgriSentry: AI-Powered Pest Detection for Indian Agriculture
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Abstract
 
