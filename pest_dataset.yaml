@@ -1,0 +1,13 @@
+    # AgriSentry Pest Dataset Configuration File
+
+    # Path to the training images directory
+    train: C:/Users/Shivamani/Desktop/iHub/IIITH-Internship/Pest Detection/test
+
+    # Path to the validation images directory
+    val: C:/Users/Shivamani/Desktop/iHub/IIITH-Internship/Pest Detection/train
+
+    # Number of classes
+    nc: 3
+
+    # Class names
+    names: ['aphid', 'whitefly', 'pink_bollworm']
