@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+dist/
+build/
+
+# Data & Runs
+/runs/
+/temp_data/
+*.mp4
+/data/raw_images/
+
+# IDEs
+.idea/
+.vscode/
