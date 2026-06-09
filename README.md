@@ -3,7 +3,7 @@
 
 
 ## Abstract
-
+   
 Crop loss due to pest infestation is a critical challenge for India's agricultural sector, directly impacting farmer livelihoods and national food security. This project, "AgriSentry," proposes a highly accessible, deep learning-based solution for the early detection and identification of common agricultural pests. By leveraging the state-of-the-art YOLOv8 object detection model, AgriSentry is designed to empower farmers by turning a standard smartphone into a powerful diagnostic tool. A farmer can capture an image of a plant, and the system will automatically identify and locate pests such as aphids, whiteflies, and bollworms. This enables timely, targeted intervention, reducing crop damage, minimizing pesticide costs, and promoting sustainable farming practices in line with Integrated Pest Management (IPM).
 
 ---
