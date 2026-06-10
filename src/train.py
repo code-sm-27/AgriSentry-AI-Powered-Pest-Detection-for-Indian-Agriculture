@@ -9,8 +9,8 @@ def main():
     # Path to the dataset configuration YAML file.
     data_config_path = 'data/pest_dataset.yaml'
     
-    # Choose the base model. 'yolov8n.pt' is small and fast.
-    model_variant = 'yolov8n.pt'
+    # Choose the base model.
+    model_variant = 'models/yolov8n.pt'
     
     # Training hyperparameters.
     epochs = 150

@@ -10,6 +10,14 @@ build/
 /temp_data/
 *.mp4
 /data/raw_images/
+/data/images/train/*
+!/data/images/train/.gitkeep
+/data/images/val/*
+!/data/images/val/.gitkeep
+/data/labels/train/*
+!/data/labels/train/.gitkeep
+/data/labels/val/*
+!/data/labels/val/.gitkeep
 
 # IDEs
 .idea/

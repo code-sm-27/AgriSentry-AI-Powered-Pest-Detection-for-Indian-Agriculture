@@ -51,7 +51,7 @@ def main():
     parser.add_argument(
         '--weights', 
         type=str, 
-        default='runs/detect/agrisentry_run1/weights/best.pt', 
+        default='models/best.pt', 
         help="Path to the trained model weights (.pt file)."
     )
     
