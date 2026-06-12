@@ -1,4 +1,5 @@
 from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastapi.responses import RedirectResponse
 from fastapi.concurrency import run_in_threadpool
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
@@ -40,6 +41,10 @@ async def startup_event():
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
+
+@app.get("/", include_in_schema=False)
+def root():
+    return RedirectResponse(url="/docs")
 
 @app.post("/detect", response_model=DetectionResponse)
 async def detect_pests(file: UploadFile = File(...)):

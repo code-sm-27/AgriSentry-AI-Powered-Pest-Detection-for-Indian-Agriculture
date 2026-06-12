@@ -69,7 +69,7 @@ function App() {
 
     try {
       // Connect to the FastAPI backend running on port 8000
-      const response = await fetch('http://localhost:8000/detect', {
+      const response = await fetch('https://shivamani27-agrisentry.hf.space/detect', {
         method: 'POST',
         body: formData,
       });
