@@ -68,8 +68,9 @@ function App() {
     formData.append('file', selectedFile);
 
     try {
-      // Connect to the FastAPI backend running on port 8000
-      const response = await fetch('https://shivamani27-agrisentry.hf.space/detect', {
+      // Connect to the FastAPI backend using env var or fallback to deployed space
+      const apiUrl = import.meta.env.VITE_API_URL || 'https://shivamani27-agrisentry.hf.space';
+      const response = await fetch(`${apiUrl}/detect`, {
         method: 'POST',
         body: formData,
       });
